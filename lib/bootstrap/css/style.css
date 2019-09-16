@@ -1,0 +1,22 @@
+* body{
+    padding-top: 56px
+}
+.navbar-default input[type="text"]{
+    background: #333333;
+    border: none;
+    color: #adf10c;
+
+}
+.navbar-default button[type="submit"]{
+    border: none;
+    background: none;
+    columns: #999999;;
+}
+.navbar-default form{
+    position: relative;
+}
+.navbar-default .glyphicon-search{
+    position: absolute;
+    top: 26%;
+    right: 1px;
+}
