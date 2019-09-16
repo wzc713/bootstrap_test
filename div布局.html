@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>用新布局元素代替div元素布局</title>
+	<style>
+		#div1{
+			width: 100%;height: 640px;
+		}
+		#div2{
+			height: 20%;background-color: #303040;
+		}
+		#div3{
+			width: 30%;height: 70%;float: left;background-color: #403030;
+		}
+		#div4{
+			width: 70%;height: 70%;float: left;background-color: #305070;
+		}
+		#div5{
+			height: 10%;clear: left;background-color: #705030;
+		}
+	</style>
+</head>
+<body>
+	<div id="div1">
+		<div id="div2">
+			<p>这是头部</p>
+		</div>
+		<div id="div3">
+			<p>这是侧边栏</p>
+		</div>
+		<div id="div4">
+			<p>这是主内</p>
+		</div>
+		<div id="div5">
+			<p>这是底部</p>
+		</div>
+	</div>
+</body>
+</html>
